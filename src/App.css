@@ -28,7 +28,51 @@ a{
   align-items: center;
 }
 
+ul{
+  font-size: calc(10px + 1vmin);
+  padding: 0 2vw 0 2vw;
+  margin-top: 3vh;
+  list-style: none;
+  text-align: left;
+}
+
+
+li{
+  margin-bottom: 1vh;
+  padding: 1vh;
+  margin: 0;
+}
+
+li:hover{
+  background-color: rgb(168, 168, 168);
+}
+
 .menu{
   background-color: #676a70;
   height: 6vh;
+}
+
+.body{
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 20vw 80vw;
+  column-gap: 3vw;
+  padding: 5vh 3vw 2vh 3vw;
+}
+
+.filter{
+  width: 20vw;
+  height: fit-content;
+  background-color:rgb(255, 237, 215);
+}
+
+.filter > ul{
+  font-size: calc(10px + 0.8vmin);
+  font-weight: 300;
+}
+
+.products{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
 }
