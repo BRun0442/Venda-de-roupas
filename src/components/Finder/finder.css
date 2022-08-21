@@ -1,0 +1,58 @@
+.finder{
+    color: #282c34;
+    align-items: center;
+}
+
+.finderBar{
+    background-color: rgb(214, 214, 214);
+    width: 25vw;
+    height: 5vh;
+    font-size: 1.8vmin;
+    padding-left: 2vw;
+    display: flex;
+    align-items: center;
+}
+
+.finderBar > input{
+    /* all: unset; */
+    width: calc(30vw - 10px);
+    border: none;
+    outline: none;
+    background-color: rgb(214, 214, 214);
+}
+
+.finderBar > img{
+    filter:opacity(30%);
+    height: 3.5vh;
+    margin-right: 1vw;
+}
+
+.active {
+    position: fixed;
+    background-color: rgb(214, 214, 214);
+    height: fit-content;
+    width: 50vw;
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    font-size: calc(10px + 1vmin);
+    padding: 0 2vw 0 2vw;
+    margin-top: 3vh;
+    list-style: none;
+    text-align: left;
+}
+
+li{
+    margin-bottom: 1vh;
+    padding: 0.5vh;
+}
+
+li:hover{
+    background-color: rgb(168, 168, 168);
+}
+
+.inactive{
+    display: none;
+}

@@ -1,0 +1,9 @@
+.user{
+    display: flex;
+    align-items: center;
+    /* filter: opacity(90%); */
+}
+
+.user > img{
+    height: 40px;
+}

@@ -1,0 +1,9 @@
+.favorite{
+    display: flex;
+    align-items: center;
+}
+
+.favorite > img{
+    margin-right: 1vw;
+    height: 40px;
+}
