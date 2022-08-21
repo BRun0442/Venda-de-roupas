@@ -27,3 +27,8 @@ a{
   justify-content: space-around;
   align-items: center;
 }
+
+.menu{
+  background-color: #676a70;
+  height: 6vh;
+}

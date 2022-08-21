@@ -1,6 +1,6 @@
 import React from 'react';
 import './logo.css';
-import imgLogo from '../bigLogo_v2.png'
+import imgLogo from '../icons/bigLogo_v2.png'
 
 function Logo(){
     return(

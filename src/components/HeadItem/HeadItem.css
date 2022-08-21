@@ -1,9 +1,13 @@
-.favorite{
+.item{
     display: flex;
     align-items: center;
 }
 
-.favorite > img{
+.item > img{
     margin-right: 1vw;
     height: 40px;
+}
+
+.item > img:hover{
+    transform: scale(1.2);
 }

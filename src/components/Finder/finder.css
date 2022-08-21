@@ -1,39 +1,48 @@
-.finder{
-    color: #282c34;
-    align-items: center;
-}
-
 .finderBar{
-    background-color: rgb(214, 214, 214);
+    position:relative;
     width: 25vw;
-    height: 5vh;
-    font-size: 1.8vmin;
-    padding-left: 2vw;
     display: flex;
     align-items: center;
+    font-size: 1.8vmin;
+    padding-left: 2vw;
+    color: #282c34;
+    /* background-color: rgb(214, 214, 214); */
 }
 
 .finderBar > input{
-    /* all: unset; */
-    width: calc(30vw - 10px);
+    width: calc(25vw - 30px - 2vw);
+    height: 5vh;
+
+    margin: 0;
+    padding: 0;
+    padding-left: 2vw;
+
     border: none;
     outline: none;
     background-color: rgb(214, 214, 214);
 }
 
-.finderBar > img{
-    filter:opacity(30%);
-    height: 3.5vh;
-    margin-right: 1vw;
+.finderBar > a{
+    height: 5vh;
+    background-color: rgb(214, 214, 214);
+}
+
+.finderBar > a:hover{
+    background-color: rgb(170, 170, 170);
+    filter: invert(1);
 }
 
 .active {
     position: fixed;
+    top: 7vh;
     background-color: rgb(214, 214, 214);
-    height: fit-content;
-    width: 50vw;
+    width: 25vw;
     padding: 0;
     margin: 0;
+
+    /* borda interna */
+    box-sizing: border-box;
+    border: solid 2px #676a70;
 }
 
 ul{
@@ -44,9 +53,11 @@ ul{
     text-align: left;
 }
 
+
 li{
     margin-bottom: 1vh;
-    padding: 0.5vh;
+    padding: 1vh;
+    margin: 0;
 }
 
 li:hover{
@@ -55,4 +66,4 @@ li:hover{
 
 .inactive{
     display: none;
-}
+} 

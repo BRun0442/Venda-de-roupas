@@ -8,20 +8,30 @@ function Finder()
     const [finder, setFinder] = useState(false);
 
     return(
-        <div onMouseLeave={() => {setFinder(true)}} className="finder">
-            <div onClick={() => {setFinder(false)}} className="finderBar">
-                <input placeholder="O que você deseja hoje?" />
-                <img src={require('../magnifier.png')}></img>
-            </div>
+        <header>
+            <div 
+            onClick={() => {setFinder(false)}} 
+            onMouseLeave={() => {setFinder(true)}} 
+            className="finderBar">
 
-            <div className={finder ? "inactive" : "active"}>
-                <h3>Sugestões</h3>
-                <ul>
-                    <li>Vestido</li>
-                    <li>Moletom</li>
-                </ul>
+                <input placeholder="O que você deseja hoje?" />
+                <a href="#">
+                    <img src={require('../icons/magnifier.png')}></img>
+                </a>
+            
+                <div className={finder ? "inactive" : "active"}>
+                    <h3>Sugestões</h3>
+                    <ul>
+                        <li>Vestido</li>
+                        <li>Moletom</li>
+                        <li>Vestido</li>
+                        <li>Moletom</li>
+                        <li>Vestido</li>
+                        <li>Moletom</li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </header>
     );
 }
 

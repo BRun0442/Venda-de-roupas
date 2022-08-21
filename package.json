@@ -11,14 +11,11 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://BRun0442.github.io/Site-de-Roupas",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -37,5 +34,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "license": "MIT"
 }
