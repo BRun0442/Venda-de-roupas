@@ -39,7 +39,9 @@
     width: 25vw;
     padding: 0;
     margin: 0;
-
+    filter: opacity(80%);
+    backdrop-filter: blur(5px);
+    /* filter: blur(5px); */
     /* borda interna */
     box-sizing: border-box;
     border: solid 2px #676a70;

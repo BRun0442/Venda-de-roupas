@@ -1,7 +1,9 @@
-.productCard{
-    margin: 0 auto 10vh;
+.productCard > a > img{
+    max-width: 220px;
+    object-fit: cover;
+    object-position: center;
 }
 
-.productCard{
-
+.productCard > a{
+    color: black;
 }

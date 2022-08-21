@@ -8,7 +8,8 @@ import ProductCard from './components/ProductCard/productCard';
 import Cart from './components/icons/cart_v2.png';
 import Favorite from './components/icons/favorite.png';
 import User from './components/icons/user_v2.png';
-import Product from './components/img/calcaJeans.png';
+import CalcaJeans from './components/img/calcaJeans.png';
+import TenisAdidas from './components/img/tenisAdidas.png';
 
 function App() {
   return (
@@ -60,13 +61,13 @@ function App() {
 
 
         <div className="products">
-          <ProductCard img={Product} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard img={Product} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard img={Product} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-
-          <ProductCard img={Product} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard img={Product} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard img={Product} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard height="49vh" link="#" img={TenisAdidas} name="Tênis Adidas Breaknet Masculino" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard height="49vh" link="#" img={TenisAdidas} name="Tênis Adidas Breaknet Masculino" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard height="49vh" link="#" img={TenisAdidas} name="Tênis Adidas Breaknet Masculino" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard height="49vh" link="#" img={TenisAdidas} name="Tênis Adidas Breaknet Masculino" desc="calça jeans amarela" price="79,90"></ProductCard>
         </div>
       </section>
     </div>
