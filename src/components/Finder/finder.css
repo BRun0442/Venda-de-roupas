@@ -1,7 +1,9 @@
 .finderBar{
     position:relative;
-    width: 25vw;
+    min-width: 165px;
+    max-width: 25vw;
     display: flex;
+    /* flex-wrap: wrap; */
     align-items: center;
     font-size: 1.8vmin;
     padding-left: 2vw;
@@ -11,8 +13,8 @@
 
 .finderBar > input{
     width: calc(25vw - 30px - 2vw);
+    min-width: 165px;
     height: 5vh;
-
     margin: 0;
     padding: 0;
     padding-left: 2vw;
@@ -46,6 +48,11 @@
     box-sizing: border-box;
     border: solid 2px #676a70;
 }
+
+.active > ul > li:hover{
+    background-color: rgb(168, 168, 168);
+    filter: opacity(100%);
+  }
 
 .inactive{
     display: none;
