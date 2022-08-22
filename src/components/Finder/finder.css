@@ -6,14 +6,13 @@
     /* flex-wrap: wrap; */
     align-items: center;
     font-size: 1.8vmin;
-    padding-left: 2vw;
     color: #282c34;
     /* background-color: rgb(214, 214, 214); */
 }
 
 .finderBar > input{
+    /* min-width: 165px; */
     width: calc(25vw - 30px - 2vw);
-    min-width: 165px;
     height: 5vh;
     margin: 0;
     padding: 0;

@@ -14,30 +14,32 @@ import TenisAdidas from './components/img/tenisAdidas.png';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="App-header ">
         <div className="container" style={
           {
-            width: "55vw",
+            minWidth: "374px",
+            flexWrap: "wrap",
           }}>
 
           <Logo></Logo>
           <Finder></Finder>
         </div>
 
-
         <div className="container" style={
           {
-            width: "30vw", 
-            justifyContent: "space-around", 
-            alignContent: "flex-end",
+            width: "calc(45vw + 20px)", 
+            minWidth: "40vw",
           }}>
 
-          <HeadItem img={Favorite} text="Favoritos"></HeadItem>
-          <HeadItem img={Cart}></HeadItem>
-          <HeadItem img={User} text="Entrar"></HeadItem>
+          <div className="container"style={
+          {
+            width: "35vw",
+          }}>
+            <HeadItem img={Favorite} text="Favoritos"></HeadItem>
+            <HeadItem img={Cart}></HeadItem>
+            <HeadItem img={User} text="Entrar"></HeadItem>
+          </div>
         </div>
-
-        
       </header>
 
       <section className="menu">

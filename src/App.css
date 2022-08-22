@@ -13,9 +13,9 @@ a{
 
 .App-header {
   background-color: #282c34;
-  height: 10vh;
+  height: fit-content;
   display: flex;
-  /* flex-direction: column; */
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   font-size: calc(10px + 1.6vmin);
@@ -25,6 +25,7 @@ a{
 .container{
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -43,11 +44,6 @@ li{
   margin: 0;
 }
 
-li:hover{
-  background-color: rgb(168, 168, 168);
-  filter: opacity(100%);
-}
-
 .menu{
   background-color: #676a70;
   height: 6vh;
@@ -56,7 +52,7 @@ li:hover{
 .body{
   height: fit-content;
   display: grid;
-  grid-template-columns: 20vw 80vw;
+  grid-template-columns: auto 80vw;
   column-gap: 10px;
   padding: 5vh 3vw 2vh 3vw;
 }
@@ -68,7 +64,7 @@ li:hover{
 }
 
 .filter > ul{
-  font-size: calc(10px + 0.8vmin);
+  font-size: calc(10px + 0.5vw);
   font-weight: 300;
 }
 
