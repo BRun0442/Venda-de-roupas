@@ -5,7 +5,8 @@ import {useState} from 'react';
 
 function Finder()
 {
-    const [finder, setFinder] = useState(false);
+    let [finder, setFinder] = useState(false);
+    // let active = false;
 
     return(
         <header>
@@ -18,10 +19,11 @@ function Finder()
                 <a href="#">
                     <img src={require('../icons/magnifier.png')}></img>
                 </a>
-            
+                
                 <div className={finder ? "inactive" : "active"}>
                     <h3>Sugestões</h3>
                     <ul>
+                    
                         <li>Vestido</li>
                         <li>Moletom</li>
                         <li>Vestido</li>
@@ -30,6 +32,21 @@ function Finder()
                         <li>Moletom</li>
                     </ul>
                 </div>
+                
+                {/* {finder && (
+                    <div>
+                        <h3>Sugestões</h3>
+                        <ul>
+                        
+                            <li>Vestido</li>
+                            <li>Moletom</li>
+                            <li>Vestido</li>
+                            <li>Moletom</li>
+                            <li>Vestido</li>
+                            <li>Moletom</li>
+                        </ul>
+                    </div>
+                )}; */}
             </div>
         </header>
     );

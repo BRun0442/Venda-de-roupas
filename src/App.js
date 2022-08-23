@@ -10,6 +10,7 @@ import Favorite from './components/icons/favorite.png';
 import User from './components/icons/user_v2.png';
 import CalcaJeans from './components/img/calcaJeans.png';
 import TenisAdidas from './components/img/tenisAdidas.png';
+import AirMax from './components/img/airmax.png';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <header className="App-header ">
         <div className="container" style={
           {
+            width: "55vw",
             minWidth: "374px",
             flexWrap: "wrap",
           }}>
@@ -27,8 +29,8 @@ function App() {
 
         <div className="container" style={
           {
-            width: "calc(45vw + 20px)", 
-            minWidth: "40vw",
+            width: "calc(30vw + 20px)", 
+            // minWidth: "40vw",
           }}>
 
           <div className="container"style={
@@ -70,6 +72,7 @@ function App() {
           <ProductCard height="49vh" link="#" img={TenisAdidas} name="Tênis Adidas Breaknet Masculino" desc="calça jeans amarela" price="79,90"></ProductCard>
           <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
           <ProductCard height="49vh" link="#" img={TenisAdidas} name="Tênis Adidas Breaknet Masculino" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard height="20vh" img={AirMax} name="Tênis Nike Air Max Impact 2 - Cinza+Vermelho" price="296,99"></ProductCard>
         </div>
       </section>
     </div>
