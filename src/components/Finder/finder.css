@@ -42,7 +42,7 @@
 
 .active {
     position: fixed;
-    top: 7vh;
+    top: 5vh;
     background-color: rgb(214, 214, 214);
     width: 25vw;
     padding: 0;
