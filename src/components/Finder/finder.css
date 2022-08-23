@@ -1,6 +1,6 @@
 .finderBar{
     position:relative;
-    min-width: 165px;
+    /* min-width: 165px; */
     max-width: 25vw;
     display: flex;
     /* flex-wrap: wrap; */
@@ -13,7 +13,8 @@
 .finderBar > input{
     /* min-width: 165px; */
     width: calc(25vw - 30px - 2vw);
-    height: 5vh;
+    min-height: 40px;
+    max-height: 5vh;
     margin: 0;
     padding: 0;
     padding-left: 2vw;
@@ -24,8 +25,14 @@
 }
 
 .finderBar > a{
-    height: 5vh;
+    min-height: 40px;
+    max-height: 5vh;
     background-color: rgb(214, 214, 214);
+}
+
+.finderBar > a > img{
+    position: relative;
+    top: calc(40px / 8);
 }
 
 .finderBar > a:hover{
