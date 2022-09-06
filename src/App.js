@@ -66,13 +66,29 @@ function App() {
 
         <div className="products">
           <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard height="49vh" link="#" img={TenisAdidas} name="Tênis Adidas Breaknet Masculino" desc="calça jeans amarela" price="79,90"></ProductCard>
           <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard height="49vh" link="#" img={TenisAdidas} name="Tênis Adidas Breaknet Masculino" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard height="49vh" link="#" img={TenisAdidas} name="Tênis Adidas Breaknet Masculino" desc="calça jeans amarela" price="79,90"></ProductCard>
           <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard height="49vh" link="#" img={TenisAdidas} name="Tênis Adidas Breaknet Masculino" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard height="20vh" img={AirMax} name="Tênis Nike Air Max Impact 2 - Cinza+Vermelho" price="296,99"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
+          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
         </div>
       </section>
     </div>
