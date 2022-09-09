@@ -12,6 +12,7 @@
 
 .finderBar > input{
     /* min-width: 165px; */
+    position: relative;
     width: calc(25vw - 30px - 2vw);
     min-height: 40px;
     max-height: 5vh;
@@ -62,4 +63,17 @@
 
 .inactive{
     display: none;
-} 
+}
+
+.dropDownMenu{
+    position: absolute;
+    background-color: rgb(214, 214, 214);
+    top: 40px;
+    width: 25vw;
+    padding: 0;
+    margin: 0;
+    filter: opacity(80%);
+    backdrop-filter: blur(5px);
+    box-sizing: border-box;
+    border: solid 2px #676a70;
+}

@@ -72,23 +72,6 @@ function App() {
           <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
           <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
           <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
-          <ProductCard link="#" img={CalcaJeans} name="calça jeans" desc="calça jeans amarela" price="79,90"></ProductCard>
         </div>
       </section>
     </div>
